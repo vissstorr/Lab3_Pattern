@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Lab3_Pattern.ProductRequest.FileRequest" Collapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>ProductRequest\FileRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lab3_Pattern.Request">
+    <Position X="2.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAEAAAAAAQAgEAAAAAAACAACAAABAA=</HashCode>
+      <FileName>ProductRequest\Request.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lab3_Pattern.SqlRequest" Collapsed="true">
+    <Position X="2.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>ProductRequest\SqlRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lab3_Pattern.ProductRequest.WebRequest" Collapsed="true">
+    <Position X="5" Y="1.25" Width="1.5" />
+    <InheritanceLine Type="Lab3_Pattern.Request" ManuallyRouted="true">
+      <Path>
+        <Point X="3" Y="3.25" />
+        <Point X="3.821" Y="3.25" />
+        <Point X="3.821" Y="2.649" />
+        <Point X="3.992" Y="2.649" />
+        <Point X="3.992" Y="2.445" />
+        <Point X="5.75" Y="2.445" />
+        <Point X="5.75" Y="1.941" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>ProductRequest\WebRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lab3_Pattern.CreatorRequest.CreatorFileRequest" Collapsed="true">
+    <Position X="5.25" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CreatorRequest\CreatorFileRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lab3_Pattern.CreatorRequests">
+    <Position X="5.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CreatorRequest\CreatorRequests.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lab3_Pattern.CreatorRequest.CreatorSqlRequest" Collapsed="true">
+    <Position X="7.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CreatorRequest\CreatorSqlRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lab3_Pattern.CreatorRequest.CreatorWebRequest" Collapsed="true">
+    <Position X="9" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CreatorRequest\CreatorWebRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
